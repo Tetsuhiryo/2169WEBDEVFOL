@@ -19,27 +19,33 @@
 <link href="./main.d8e0d294.css" rel="stylesheet"></head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-      <ul class="navbar-nav">
-        <li class="nav-item active">
-          <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
-            More
-          </a>
-          <div class="dropdown-menu">
-            <a class="dropdown-item" href="#proj">Projects<br></a>
-            <a class="dropdown-item" href="#educ">Education<br></a>
-            <a class="dropdown-item" href="#skills">Skills<br></a>
-            <a class="dropdown-item" href="#cert">Certificates<br></a>
-            <a class="dropdown-item" href="#contact">Contact</a>
-          </div>
-        </li>
-      </ul>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top" id="navbar">
+    <div class="container">
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#proj">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#educ">Education</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#skills">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#cert">Certificates</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#Social">Socials & Contact</a>
+            </ul>
+        </div>
     </div>
-  </nav>
+</nav>
+
+
 
 
 <div class="background-color-layer" style="background-image: url('assets/images/kodo.jpg')"
@@ -87,7 +93,15 @@
               <p><br>Hello there! I'm Tetsuhiro U. Kodo, a 20yr old College Student that is currently studying at Holy Angel University, in the Field of Specialization in Web Development. an aspiring Web Developer, UI/UX Designer.</p>
                 <p> While recognizing that there is still a lot of room for learning and development, my dedication to continuous improvement and personal growth remains unwavering. I am committed to refining my skills, acquiring additional knowledge, and executing tasks seamlessly. To date, I assure those I collaborate with that I consistently deliver at full capacity, demonstrating passion and meticulous attention to detail in every task. My approach involves exploring all potential avenues, applying accumulated knowledge, and wholeheartedly contributing to our collaborative endeavors.</p>
                 <p>Feel free to browse and delve into the extensive display of my work and achievements within the my portfolio. I believe the portfolio stands as evidence of my dedication to excellence, showing the value I can contribute to any collaborative project. Your exploration is welcomed, and I am eager to discuss how my skills align with your specific needs.</p>
-              
+              </p>
+              <br>
+              <h3> Download Buttons </h3>
+              <a href="assets/images/resume.pdf" download>
+                <button>Resume</button>
+            </a>
+            <a href="/assets/images/cover.pdf" download>
+              <button>Cover Letter</button>
+          </a>
 
               </div>
             </div>
@@ -109,7 +123,9 @@
                   </div>
                 </div>
                 <div class="item">
+                  <a href="https://tracker.gg/valorant">
                   <img src="./assets/images/webs2.png" class="img-responsive" alt="...">
+                  </a>
                   <div class="carousel-caption">
                     <h3 class="h5">Valorant Ingame Client Thirdparty Application Website (Tracker.gg)</h3>
                     <h6> I've Contributed in this Ingame Client Thirtdparty Application website by giving my ideas, showing my potential on designing which comes in to CSS, my idea was having to simple piece by piece of the Games that is indicated to the user's login connections. to possibly make and use of the space above where it is categorized to "My Games", Safe to say the Website is currently going well and still working.</h6>
@@ -118,7 +134,9 @@
                 </div>
   
                 <div class="item">
+                  <a href="https://coffeebrewista.com">
                   <img src="./assets/images/webs3.png" class="img-responsive" alt="...">
+                 </a>
                   <div class="carousel-caption">
                     <h3 class="h5">Local Business made on Wordpress (coffeebrewista.com)</h3>
                     <h6>This was a project on our Subject, which includes Wordpress, I've worked with 3 other people which are my classmates. I've helped in various ways not just focusing on one job as it is a group work, but I've generally assisted mainly in our structure of the website.   </h6>
@@ -127,7 +145,9 @@
                 </div>
   
                 <div class="item">
+                  <a href="https://valodexph.wordpress.com">
                   <img src="./assets/images/webs4.png" class="img-responsive" alt="...">
+                  </a>
                   <div class="carousel-caption">
                     <h3 class="h5">Valorant E-sports news article (ValoDexPH.wordpress.com)</h3>
                     <h6>This was my 2nd second Wordpress website that is publish and the name of the website is "ValoDex" which divides into two words, "Valo" to the game "Valorant" and "Dex" is commonly used to refer to a sort of library, I've Explored in a lot of ways in wordpress, Designing, Structure, Functionality, Reponsive. when doing this activity as it is still my 2nd Wordpress Project</h6>
@@ -264,7 +284,7 @@
         
         <div class="card">
           <div class="card-block">
-            <h2>Social Network</h2>
+            <h2 id ="Social">Social Network</h2>
             <div class="row">
               <div class="col-md-3">
                 <p class="social-buttons"><a href="https://twitter.com/Tetsuhiryooo" title=""><span class="social-round-icon fa-icon"><i class="fa fa-twitter"></i></span>@Tetsuhiryoo</a></p>
